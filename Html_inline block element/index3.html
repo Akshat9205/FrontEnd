@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration Form</title>
+</head>
+<body>
+
+    <h1>Course Registration</h1>
+
+    <form action="/submit-form" method="post">
+
+        <fieldset>
+            <legend>Personal Details</legend>
+            <p>
+                <label for="fullName">Full Name:</label><br>
+                <input type="text" id="fullName" name="student_name" placeholder="Enter your full name" required>
+            </p>
+            <p>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="student_email" placeholder="example@domain.com" required>
+            </p>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Course Selection</legend>
+            <p>
+                <label for="course">Choose a Course:</label><br>
+                <select id="course" name="course_selection">
+                    <option value="">--Please select a course--</option>
+                    <option value="wd101">Web Development 101</option>
+                    <option value="py101">Introduction to Python</option>
+                    <option value="dsf201">Data Science Fundamentals</option>
+                    <option value="ux202">UX/UI Design Principles</option>
+                </select>
+            </p>
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Register Now">
+
+    </form>
+
+    <hr>
+
+    <h2>Available Course Schedules 🗓️</h2>
+
+    <table border="1" style="width:100%; border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Instructor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday & Wednesday</td>
+                <td>10:00 AM - 11:30 AM</td>
+                <td>Dr. Evelyn Reed</td>
+            </tr>
+            <tr>
+                <td>Tuesday & Thursday</td>
+                <td>2:00 PM - 3:30 PM</td>
+                <td>Prof. Samuel Chen</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>9:00 AM - 12:00 PM</td>
+                <td>Ms. Anita Desai</td>
+            </tr>
+             <tr>
+                <td>Saturday</td>
+                <td>1:00 PM - 4:00 PM</td>
+                <td>Mr. Ben Carter</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
