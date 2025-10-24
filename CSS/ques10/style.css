@@ -1,0 +1,258 @@
+/* --- Basic Setup & Variables --- */
+:root {
+    --primary-color: #007bff;
+    --dark-color: #2c3e50;
+    --light-color: #f4f4f4;
+    --bg-color: #ffffff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 1100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* --- 1. Header (Sticky Positioning) --- */
+.site-header {
+    background: var(--bg-color);
+    padding: 15px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.main-nav li {
+    margin-left: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--dark-color);
+    font-weight: 600;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+    color: var(--primary-color);
+}
+
+/* --- 2. Hero Section (Relative/Absolute Positioning, RGBA) --- */
+#hero {
+    height: 90vh;
+    background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&q=80&w=1200&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    position: relative;
+}
+
+#hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin: 0 0 10px 0;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin: 0 0 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: var(--primary-color);
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+/* --- Common Section Styling (Box Model: Margin/Padding) --- */
+.content-section {
+    padding: 60px 0;
+    margin-bottom: 10px;
+}
+
+.content-section:nth-of-type(odd) {
+    background-color: var(--bg-color);
+}
+
+.content-section:nth-of-type(even) {
+    background-color: var(--light-color);
+}
+
+.content-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+/* --- 3. About Section (Flexbox) --- */
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-text, .about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* --- 4. Services Section (Flexbox, Border, Box Model) --- */
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.service-box {
+    flex: 1;
+    background: var(--bg-color);
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-box h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+/* --- 5. Contact Form (Box Model: Outline, Border) --- */
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--bg-color);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--primary-color);
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* --- 6. Footer --- */
+.site-footer {
+    background: var(--dark-color);
+    color: #aaa;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 20px;
+}
+
+/* --- 7. Responsive Design --- */
+@media (max-width: 768px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+    
+    .main-nav ul {
+        display: none;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+
+    .about-container, .services-container {
+        flex-direction: column;
+    }
+}
