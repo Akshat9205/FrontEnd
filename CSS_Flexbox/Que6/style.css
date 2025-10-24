@@ -1,0 +1,137 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8fafc;
+  color: #333;
+}
+
+/* Grid Layout */
+.blog-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+  gap: 20px;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  grid-area: header;
+  background-color: #1e293b;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #38bdf8;
+}
+
+/* Sidebar */
+.sidebar {
+  grid-area: sidebar;
+  background-color: #e2e8f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.sidebar h2 {
+  margin-bottom: 15px;
+  color: #1e293b;
+}
+
+.sidebar ul {
+  list-style: none;
+  line-height: 1.8;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.sidebar a:hover {
+  color: #00bcd4;
+}
+
+/* Main Content */
+.main-content {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.post {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.post:hover {
+  transform: translateY(-5px);
+}
+
+.post h2 {
+  margin-bottom: 10px;
+  color: #1e293b;
+}
+
+.post p {
+  line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+  grid-area: footer;
+  background-color: #1e293b;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+}
+
+/* Responsive Layout */
+@media (max-width: 800px) {
+  .blog-container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "main"
+      "sidebar"
+      "footer";
+  }
+
+  .main-content {
+    grid-template-columns: 1fr;
+  }
+}

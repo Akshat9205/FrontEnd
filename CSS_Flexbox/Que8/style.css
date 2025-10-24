@@ -1,0 +1,49 @@
+/* General styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8fafc;
+  color: #333;
+  padding: 20px;
+}
+
+h1.gallery-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Gallery Grid */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* Figures */
+figure {
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+/* Image hover effect */
+figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+figure:hover img {
+  transform: scale(1.05);
+}
+
+/* Caption */
+figcaption {
+  padding: 10px;
+  font-weight: 500;
+  color: #1e293b;
+}
