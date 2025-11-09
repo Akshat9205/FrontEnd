@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Selectors Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>CSS Selectors Practice Page</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Basic Elements</h2>
+      <p>This is a normal paragraph styled using an <strong>element selector</strong>.</p>
+      <p class="highlight">This paragraph uses a <strong>class selector</strong>.</p>
+      <p id="special">This one uses an <strong>ID selector</strong>.</p>
+    </section>
+
+    <section>
+      <h2>Attribute Selectors</h2>
+      <a href="https://example.com">External HTTPS Link</a>
+      <a href="http://example.com">HTTP Link</a>
+      <input type="text" placeholder="Type something...">
+      <input type="email" placeholder="Email here...">
+    </section>
+
+    <section>
+      <h2>Combinators</h2>
+      <div class="parent">
+        <p>Descendant selector applies here.</p>
+        <span>Direct child example</span>
+        <p>Another paragraph for ~ combinator</p>
+      </div>
+      <p>Paragraph after .parent for + combinator example.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 CSS Practice Layout</p>
+  </footer>
+</body>
+</html>

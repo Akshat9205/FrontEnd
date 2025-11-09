@@ -1,0 +1,80 @@
+ body {
+        font-family: "Poppins", sans-serif;
+        background: linear-gradient(135deg, #c3ecb2, #7dd3fc);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .ui-card {
+        background: #fff;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 350px;
+        align-items: center;
+    }
+
+    .search-bar input {
+        padding: 10px 15px;
+        width: 100%;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+
+    .search-bar input:focus {
+        border-color: #2563eb;
+        outline: none;
+        box-shadow: 0 0 6px rgba(37, 99, 235, 0.3);
+    }
+
+    .buttons {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .buttons button {
+        padding: 10px 20px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-weight: 600;
+    }
+
+    .btn-primary {
+        background-color: #2563eb;
+        color: #fff;
+    }
+
+    .btn-primary:hover {
+        background-color: #1e40af;
+    }
+
+    .btn-secondary {
+        background-color: #e5e7eb;
+        color: #111;
+    }
+
+    .btn-secondary:hover {
+        background-color: #d1d5db;
+    }
+
+    select {
+        padding: 10px;
+        border-radius: 8px;
+        border: 2px solid #ccc;
+        transition: all 0.3s ease;
+    }
+
+    select:focus {
+        border-color: #2563eb;
+        box-shadow: 0 0 5px rgba(37, 99, 235, 0.4);
+        outline: none;
+    }

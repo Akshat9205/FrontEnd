@@ -1,0 +1,77 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 40px;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header, footer {
+  text-align: center;
+  padding: 15px;
+  background: #333;
+  color: white;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  background-color: #ffeb3b;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+#special {
+  color: #2196f3;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  border: 2px solid #4caf50;
+  padding: 5px;
+}
+
+input[type="email"] {
+  border: 2px solid #2196f3;
+  padding: 5px;
+}
+
+a[href^="https"] {
+  color: #4caf50;
+  font-weight: bold;
+}
+a[href^="http://"] {
+  color: red;
+}
+.parent p {
+  color: #555;
+}
+
+.parent > span {
+  color: #e91e63;
+  font-weight: bold;
+}
+
+
+.parent + p {
+  background-color: #bbdefb;
+  padding: 8px;
+}
+
+
+.parent p ~ p {
+  font-style: italic;
+  color: #9c27b0;
+}
+
+section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}

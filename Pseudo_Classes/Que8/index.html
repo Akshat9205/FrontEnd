@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Box-Sizing Comparison</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Box-Sizing Comparison</h1>
+
+<div class="container">
+    <div class="box default">Default (content-box)</div>
+    <div class="box border-box">With border-box</div>
+</div>
+
+<p>
+Both boxes have the same declared width (200px) and padding (20px).  
+However, <strong>border-box</strong> includes padding and border in the total width,  
+while <strong>content-box</strong> adds them on top of the width — making it appear larger.
+</p>
+
+</body>
+</html>
