@@ -1,88 +1,175 @@
-# 🌐 Web Development Learning Journal  
+🌐 Frontend Development Journey
 
-**Lectures 1–10:**  
-Welcome to my **Web Development Learning Journal!** 🧠✨  
-This series documents my step-by-step journey through HTML, CSS, and Responsive Design — from the fundamentals of web structure to advanced styling concepts.
+Welcome to my Frontend Web Development Repository!
+This repository contains all topic-wise branches and assignments covered during the course — from HTML basics to Bootstrap and Responsive Design.
 
----
+📅 Learning Timeline
+🧩 9 Oct — Introduction to Web Development
 
-## 📍 Lecture 1 – Main  
+Topics Covered:
 
-Understood what web development is and how websites work. Learned about the basic structure of a web project and the tools used to create and test web pages.  
-✨ **Takeaway:** Got familiar with the world of web technologies and how browsers interpret code.
+3-Tier Architecture (Frontend, Backend, Database)
 
----
+HTML Basics: Tables, Headings, Paragraphs, Images
 
-## 🌍 Lecture 2 – Intro to Web Development  
+Localhost, Ports, and Live Server setup in VS Code
 
-Explored the **client-server model**, frontend vs backend differences, and how web browsers render HTML & CSS.  
-💡 Learned about the **roles of HTML, CSS, and JavaScript** in building modern web applications.  
-✨ **Takeaway:** I can now explain how the web actually works behind the scenes.
+🧠 Task for the Day:
+Create a timetable webpage using the <table> tag and run it via Live Server.
 
----
+🏗️ 10 Oct — HTML Block and Inline Elements
 
-## 🧱 Lecture 3 – HTML  
+Topics Covered:
 
-Studied the structure of an HTML document, tags, attributes, and semantics.  
-Practiced creating web pages with headings, paragraphs, links, and images.  
-✨ **Takeaway:** Can confidently write clean and semantic HTML pages.
+Block vs Inline Elements
 
----
+Attributes, Headings, Paragraphs, Tables
 
-## 🧩 Lecture 4 – HTML Block & Inline Elements  
+Dropdowns, Lists, and Layout
 
-Explored the difference between **block-level** and **inline** elements.  
-Used examples like `<div>`, `<p>`, `<span>`, and `<a>` to understand how they affect layout.  
-✨ **Takeaway:** Learned how display types affect positioning and layout of elements.
+HTML <marquee> and Form Input Types
 
----
+🧠 Assignments:
 
-## 🔗 Lecture 5 – HTML Iframes  
+Submission of HTML Block and Inline Elements
 
-Learned how to embed external content such as videos, maps, and other websites using the `<iframe>` tag.  
-✨ **Takeaway:** Can now integrate dynamic and third-party content within my pages.
+Submission of HTML Iframes
 
----
+🎨 13 Oct — Introduction to CSS
 
-## 🎨 Lecture 6 – CSS Introduction  
+Topics Covered:
 
-Discovered how **CSS** adds style and beauty to a plain HTML page.  
-Practiced adding inline, internal, and external styles.  
-✨ **Takeaway:** Can separate structure (HTML) and design (CSS) effectively.
+CSS Syntax & Selectors
 
----
+Inline, Internal, and External CSS
 
-## 🧭 Lecture 7 – Flexbox  
+Box Model, Units, and Positioning
 
-Mastered the basics of **Flexbox** layout: containers, axes, alignment, and spacing.  
-Used properties like `justify-content`, `align-items`, and `flex-wrap` for responsive designs.  
-✨ **Takeaway:** Building layouts is now easier and cleaner with Flexbox.
+Inline, Block, and Inline-block Display Types
 
----
+🧠 Task:
+Design a simple webpage using Internal and External CSS demonstrating background colors, margins, padding, and layout.
 
-## 📦 Lecture 8 – CSS Box Model  
+📘 Material:
+05 - Introduction to CSS
 
-Understood how the **Box Model** works — content, padding, border, and margin.  
-Practiced visualizing and debugging element spacing using Chrome DevTools.  
-✨ **Takeaway:** Can now fix layout and spacing issues confidently.
+🧮 16 Oct — Flexbox & Grid Layouts
 
----
+Topics Covered:
 
-## 🎭 Lecture 9 – CSS Classes & Selectors  
+CSS Flexbox Properties
 
-Explored how to use **classes, IDs, and selectors** to style multiple elements efficiently.  
-Learned about combinators, pseudo-classes, and pseudo-elements.  
-✨ **Takeaway:** Learned the art of targeting elements precisely and writing DRY CSS.
+CSS Grid System
 
----
+Transformations & Animations
 
-## 📱 Lecture 10 – Responsive CSS  
+🧠 Assignment:
+Submission of CSS Flexbox and Grid
 
-Explored **responsive design principles** using media queries and relative units (%, vw, vh, rem).  
-Designed pages that adapt gracefully to mobile, tablet, and desktop screens.  
-✨ **Takeaway:** I can now make fully responsive web pages that look great on all devices.
+📘 Material:
+06 - CSS Flexbox, CSS Grid, Transformation and Animations
 
----
+🧱 30 Oct — CSS Box Model & Gradients
+
+Topics Covered:
+
+Borders, Padding, Height & Width
+
+Shadows, Gradients, Selectors, Transformations
+
+Box Model Visualization using border-box
+
+🧠 Task:
+Design a Calculator Layout using CSS Grid.
+
+📘 Material:
+07 - CSS Model
+
+🪄 31 Oct — CSS Pseudo-Classes & Animations
+
+Topics Covered:
+
+Pseudo-classes (:hover, :focus, :nth-child)
+
+Tooltips, Transitions, Animations
+
+CSS Selectors & Interactive Effects
+
+🧠 Task:
+Create an animation that moves an element diagonally using transition and transform.
+
+📘 Material:
+08 - Pseudo Classes
+
+📝 Assignment:
+Submission of Pseudo Classes
+
+📱 3 Nov — Responsive CSS
+
+Topics Covered:
+
+Filters and Media Queries
+
+Responsive Design Principles
+
+Adaptive Layouts for Mobile, Tablet, and Desktop
+
+🧠 Task:
+Design a Responsive Card UI with hover transition effect.
+
+📘 Material:
+09 - Responsive CSS
+
+📝 Assignment:
+Submission of Responsive CSS
+
+🧰 5 Nov — Bootstrap Introduction
+
+Topics Covered:
+
+Introduction to Bootstrap 5
+
+Bootstrap Grids and Containers
+
+Responsive Utilities and Prebuilt Components
+
+🧠 Task:
+Design a Responsive Portfolio Webpage using Bootstrap Grid and Components.
+
+📘 Material:
+10 - Bootstrap
+
+📝 Assignment:
+Submission of Bootstrap
+
+💫 6 Nov — Advanced Bootstrap & Components
+
+Topics Covered:
+
+Bootstrap Carousel, Progress Bar, and more advanced UI components
+
+Responsive Layout Design with Bootstrap Utilities
+
+🧠 Task:
+Design a Responsive Portfolio Webpage (Revised) using Bootstrap Components.
+
+📘 Upcoming Topic:
+➡️ Introduction to JavaScript (Making web pages dynamic & interactive)
+
+🧾 Summary of Assignments
+Date	Assignment Title	Description
+10 Oct	HTML Block and Inline Elements	Create page using inline vs block elements
+13 Oct	CSS Basics	Practice basic styling and layout
+16 Oct	CSS Flexbox and Grid	Build responsive grid-based layout
+30 Oct	CSS Model	Demonstrate box model with padding, margin, and borders
+31 Oct	Pseudo Classes	Use hover, focus, and nth-child pseudo-classes
+3 Nov	Responsive CSS	Create responsive card UI
+5 Nov	Bootstrap	Design responsive portfolio using Bootstrap
+6 Nov	Bootstrap (Advanced)	Add carousel, progress bar, and UI enhancements
+💻 Upcoming Module
+🚀 Next Topic: Introduction to JavaScript
+
+Learn to make web pages interactive and dynamic by understanding DOM manipulation, event handling, and basic scripting logic.
 
 ## 🎯 My Progress So Far  
 
