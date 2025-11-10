@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f1f5f9;
+  animation: fadeIn 1.2s ease;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e3a8a;
+  color: white;
+  padding: 15px 30px;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #93c5fd;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  padding: 30px;
+}
+
+.gallery h2, .explanation h2, .cheatsheet h2 {
+  color: #1e3a8a;
+  margin-bottom: 15px;
+}
+
+.images {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.images img {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 10px;
+  transition: transform 0.4s ease;
+}
+
+.images img:hover {
+  transform: scale(1.05);
+}
+
+.explanation, .cheatsheet {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.explanation:hover, .cheatsheet:hover {
+  transform: translateY(-5px);
+}
+
+.footer {
+  text-align: center;
+  background: #1e3a8a;
+  color: white;
+  padding: 15px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .nav a {
+    margin: 5px;
+  }
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+}
