@@ -4,6 +4,13 @@ Welcome to my **Frontend Web Development Repository!**
 This repository contains all topic-wise branches and assignments covered during the course — from **HTML basics** to **Bootstrap and Responsive Design.**
 
 ---
+## 👨‍🏫 Mentors
+
+Sahil Kumar Sir – Frontend Development Mentor
+
+Deepak Prasad Sir – Web Technologies Instructor
+
+---
 
 ## 📅 Learning Timeline
 
