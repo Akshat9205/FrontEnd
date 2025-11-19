@@ -1,160 +1,277 @@
-# 🌐 Frontend Development Journey
+<h1 align="center">🌐 Frontend Development Journey</h1>
 
-Welcome to my **Frontend Web Development Repository!**  
-This repository contains all topic-wise branches and assignments covered during the course — from **HTML basics** to **Bootstrap and Responsive Design.**
+<p align="center">
+  <b>My complete journey of learning Frontend Web Development — from HTML to JavaScript.</b><br>
+  <i>Clean · Structured · Professional · GitHub-Ready</i>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bootstrap-purple?logo=bootstrap&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=black" />
+</p>
 
 ---
+
 ## 👨‍🏫 Mentors
-
-Sahil Kumar Sir – Frontend Development Mentor
-
-Deepak Prasad Sir – Web Technologies Instructor
+- **Sahil Kumar Sir** – Frontend Development Mentor  
+- **Deepak Prasad Sir** – Web Technologies Instructor  
 
 ---
 
-## 📅 Learning Timeline
+# 📅 **HTML + CSS + Bootstrap Learning Timeline**
 
-### 🧩 9 Oct — Introduction to Web Development
-**Topics Covered:**
-- 3-Tier Architecture (Frontend, Backend, Database)
-- HTML Basics: Tables, Headings, Paragraphs, Images
-- Localhost, Ports, and Live Server setup in VS Code
+### 🧩 **9 Oct — Introduction to Web Development**
+✅ 3-Tier Architecture  
+✅ HTML Basics (Tables, Images, Paragraphs)  
+✅ Live Server Setup  
 
-**🧠 Task for the Day:**  
-Create a timetable webpage using the `<table>` tag and run it via Live Server.
+📝 **Task:** Create a timetable using `<table>`.
 
 ---
 
-### 🏗️ 10 Oct — HTML Block and Inline Elements
-**Topics Covered:**
-- Block vs Inline Elements  
-- Attributes, Headings, Paragraphs, Tables  
-- Dropdowns, Lists, and Layout  
-- HTML and Form Input Types
+### 🏗️ **10 Oct — HTML Block & Inline Elements**
+✔ Block vs Inline  
+✔ Lists, Dropdowns, Forms  
 
-**🧠 Assignments:**
-- Submission of HTML Block and Inline Elements  
-- Submission of HTML Iframes
+📝 **Assignments:**  
+- HTML Block & Inline Elements  
+- HTML Iframes  
 
 ---
 
-### 🎨 13 Oct — Introduction to CSS
-**Topics Covered:**
-- CSS Syntax & Selectors  
-- Inline, Internal, and External CSS  
-- Box Model, Units, and Positioning  
-- Inline, Block, and Inline-block Display Types  
+### 🎨 **13 Oct — Introduction to CSS**
+✔ CSS Selectors  
+✔ Internal/External CSS  
+✔ Box Model  
 
-**🧠 Task:**  
-Design a simple webpage using Internal and External CSS demonstrating background colors, margins, padding, and layout.  
-
+📝 **Task:** Style a webpage with margin, padding, colors.  
 📘 **Material:** `05 - Introduction to CSS`
 
 ---
 
-### 🧮 16 Oct — Flexbox & Grid Layouts
-**Topics Covered:**
-- CSS Flexbox Properties  
-- CSS Grid System  
-- Transformations & Animations  
+### 🧮 **16 Oct — Flexbox & Grid Layouts**
+✔ Flexbox  
+✔ Grid  
+✔ Transformations  
 
-**🧠 Assignment:** Submission of CSS Flexbox and Grid  
-📘 **Material:** `06 - CSS Flexbox, CSS Grid, Transformation and Animations`
+📝 **Assignment:** Flexbox & Grid  
+📘 **Material:** `06 - Flexbox, Grid & Animations`
 
 ---
 
-### 🧱 30 Oct — CSS Box Model & Gradients
-**Topics Covered:**
-- Borders, Padding, Height & Width  
-- Shadows, Gradients, Selectors, Transformations  
-- Box Model Visualization using border-box  
+### 🧱 **30 Oct — CSS Box Model**
+✔ Borders  
+✔ Padding  
+✔ Shadows  
+✔ Gradient  
 
-**🧠 Task:** Design a Calculator Layout using CSS Grid.  
+📝 **Task:** Calculator UI  
 📘 **Material:** `07 - CSS Model`
 
 ---
 
-### 🪄 31 Oct — CSS Pseudo-Classes & Animations
-**Topics Covered:**
-- Pseudo-classes (:hover, :focus, :nth-child)  
-- Tooltips, Transitions, Animations  
-- CSS Selectors & Interactive Effects  
+### 🪄 **31 Oct — Pseudo-Classes & Animations**
+✔ :hover, :focus, :nth-child  
+✔ Tooltip & Transition  
 
-**🧠 Task:**  
-Create an animation that moves an element diagonally using transition and transform.  
-
-📘 **Material:** `08 - Pseudo Classes`  
-📝 **Assignment:** Submission of Pseudo Classes
+📝 **Task:** Diagonal animation  
+📘 **Material:** `08 - Pseudo Classes`
 
 ---
 
-### 📱 3 Nov — Responsive CSS
-**Topics Covered:**
-- Filters and Media Queries  
-- Responsive Design Principles  
-- Adaptive Layouts for Mobile, Tablet, and Desktop  
+### 📱 **3 Nov — Responsive CSS**
+✔ Media Queries  
+✔ Responsive Cards  
 
-**🧠 Task:**  
-Design a Responsive Card UI with hover transition effect.  
-
-📘 **Material:** `09 - Responsive CSS`  
-📝 **Assignment:** Submission of Responsive CSS
+📝 **Task:** Responsive Card UI  
+📘 **Material:** `09 - Responsive CSS`
 
 ---
 
-### 🧰 5 Nov — Bootstrap Introduction
-**Topics Covered:**
-- Introduction to Bootstrap 5  
-- Bootstrap Grids and Containers  
-- Responsive Utilities and Prebuilt Components  
+### 🧰 **5 Nov — Bootstrap Introduction**
+✔ Grid System  
+✔ Components  
+✔ Utilities  
 
-**🧠 Task:**  
-Design a Responsive Portfolio Webpage using Bootstrap Grid and Components.  
-
-📘 **Material:** `10 - Bootstrap`  
-📝 **Assignment:** Submission of Bootstrap
+📝 **Task:** Responsive Portfolio  
+📘 **Material:** `10 - Bootstrap`
 
 ---
 
-### 💫 6 Nov — Advanced Bootstrap & Components
-**Topics Covered:**
-- Bootstrap Carousel, Progress Bar, and more advanced UI components  
-- Responsive Layout Design with Bootstrap Utilities  
+### 💫 **6 Nov — Advanced Bootstrap**
+✔ Carousel  
+✔ Progress Bars  
+✔ Layout Utilities  
 
-**🧠 Task:**  
-Design a Responsive Portfolio Webpage (Revised) using Bootstrap Components.  
-
-📘 **Upcoming Topic:** ➡️ *Introduction to JavaScript (Making web pages dynamic & interactive)*
+📝 **Task:** Updated Portfolio  
+➡ Next: **JavaScript Module**
 
 ---
 
-## 🧾 Summary of Assignments
+# 🧾 **Assignments Summary (HTML + CSS + Bootstrap)**
 
-| 📅 Date | 🧠 Assignment Title | 📝 Description |
-|----------|--------------------|----------------|
-| 10 Oct | HTML Block and Inline Elements | Create a page using inline vs block elements |
-| 13 Oct | CSS Basics | Practice basic styling and layout |
-| 16 Oct | CSS Flexbox and Grid | Build a responsive grid-based layout |
-| 30 Oct | CSS Model | Demonstrate box model with padding, margin, and borders |
-| 31 Oct | Pseudo Classes | Use hover, focus, and nth-child pseudo-classes |
-| 3 Nov | Responsive CSS | Create a responsive card UI |
-| 5 Nov | Bootstrap | Design a responsive portfolio using Bootstrap |
-| 6 Nov | Bootstrap (Advanced) | Add carousel, progress bar, and UI enhancements |
-
----
-
-## 💻 Upcoming Module 🚀
-### **Next Topic: Introduction to JavaScript**
-Learn to make web pages interactive and dynamic by understanding **DOM manipulation**, **event handling**, and **basic scripting logic.**
+| 📅 Date | 🧠 Assignment | 📘 Description |
+|--------|---------------|----------------|
+| 10 Oct | Block & Inline | HTML basics |
+| 13 Oct | CSS Basics | Styling & layout |
+| 16 Oct | Flexbox + Grid | Responsive layout |
+| 30 Oct | CSS Model | Box Model |
+| 31 Oct | Pseudo Classes | Hover/Focus |
+| 3 Nov | Responsive CSS | Card UI |
+| 5 Nov | Bootstrap | Portfolio |
+| 6 Nov | Advanced Bootstrap | Components |
 
 ---
 
-## 🎯 My Progress So Far
-✅ Understood core web development concepts  
-✅ Built structured, styled, and responsive pages  
-✅ Gained hands-on practice with modern CSS layout systems  
+# 🟨 **JavaScript Learning Timeline**
 
 ---
 
-💻 *"Turning ideas into interactive experiences — one lecture at a time."*  
-✨ *Made with ❤️ and curiosity for the web.*
+## 📅 **10 Nov — Introduction to JavaScript**
+### ⭐ Topics
+- Variables  
+- Types  
+- Operators  
+- Conditions  
+
+📝 **Material:** `11 - Intro to JavaScript`
+
+---
+
+## 📅 **12 Nov — Scope, Events, Strings, Arrays**
+### ⭐ Topics
+- Global & Local Scope  
+- Event Listeners  
+- Array & String Methods  
+
+📝 **Material:** `12 - JS Operators`
+
+---
+
+## 📅 **13 Nov — ES6 Features & DOM**
+### ⭐ Topics
+- Arrow Functions  
+- Loops  
+- DOM Manipulation  
+- Hoisting  
+
+🧪 **Tasks**
+- Counter App  
+- Image Resize App  
+
+📝 **Material:** `13 - ES Features`
+
+---
+
+## 📅 **14 Nov — JS Classes & Objects**
+⭐ Topics  
+- Classes  
+- Objects  
+- Arrays  
+- Basic Forms  
+
+📝 **Material:** `14 - JS Classes`
+
+---
+
+## 📅 **15 Nov — Functions Deep Dive**
+⭐ Topics  
+- Normal / Arrow Functions  
+- Execution Context  
+- Constructor Functions  
+
+📝 **Material:** `15 - JS Functions`
+
+---
+
+## 📅 **16 Nov — Async Programming**
+⭐ Topics  
+- Event Loop  
+- Promises  
+- Async/Await  
+
+🧪 **Task:** Convert callbacks → async/await  
+📝 **Material:** `16 - Async Programming`
+
+---
+
+## 📅 **17 Nov — DOM Model**
+⭐ Topics  
+- DOM Tree  
+- Events  
+- Form Validation Logic  
+
+🧪 **Tasks**
+- Hamburger Menu  
+- Responsive Sidebar  
+
+📝 **Material:** `17 - DOM Model`
+
+---
+
+## 📅 **18 Nov — OOP in JavaScript**
+⭐ Topics  
+- Constructor Functions  
+- Prototypes  
+- Inheritance  
+- ES6 Classes  
+
+🧪 **Task:** OOP Mini App  
+📝 **Material:** `18 - OOPS JS`
+
+---
+
+## 📅 **19 Nov — Forms & RegExp Validation**
+⭐ Topics  
+- Form Submission  
+- RegExp Patterns  
+- Live DOM Validation  
+
+🧪 **Task:**  
+✔ Form + RegExp validation (No reload)
+
+---
+
+# 📘 **JavaScript Assignments**
+
+| 📅 Date | 📘 Material | 📝 Assignment |
+|--------|-------------|----------------|
+| 10 Nov | Intro to JS | ✔ Basics |
+| 12 Nov | JS Operators | ✔ Operators |
+| 13 Nov | ES6 Features | ✔ ES Features |
+| 14 Nov | JS Classes | ✔ Classes |
+| 15 Nov | JS Functions | ✔ Functions |
+| 16 Nov | Async Programming | ✔ Async |
+| 17 Nov | DOM Model | ✔ DOM |
+| 18 Nov | OOPS JS | ✔ OOPs |
+| 19 Nov | Forms + RegExp | ⏳ Pending |
+
+---
+
+# 🎯 **Summary of My JavaScript Journey**
+
+🚀 Learned complete JS Fundamentals  
+🚀 Mastered ES6 Features  
+🚀 Explored OOP in JS  
+🚀 Implemented DOM Projects  
+🚀 Built Async/Await Based Programs  
+🚀 Created Form Validation Projects  
+🚀 Ready for AJAX, jQuery & API Integration  
+
+---
+
+<h2 align="center">✨ My Progress So Far</h2>
+
+<p align="center">
+✔ Built structured, professional webpages <br>
+✔ Created responsive layouts <br>
+✔ Added interactivity using JS <br>
+✔ Strong foundation for advanced frontend <br>
+</p>
+
+---
+
+<h3 align="center">💻 "Turning ideas into interactive experiences — one lecture at a time."</h3>
+<p align="center">Made with ❤️ and curiosity for the Web.</p>
