@@ -1,0 +1,5 @@
+body{font-family: Arial; padding:20px;}
+body[data-theme="light"]{background:#fff;color:#000;}
+body[data-theme="dark"]{background:#111;color:#eee;}
+body[data-theme="blue"]{background:#e6f0ff;color:#002244;}
+button{margin-right:8px;}

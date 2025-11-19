@@ -1,0 +1,4 @@
+body{font-family: Arial; padding:20px;}
+#counter{margin-top:8px; font-weight:bold;}
+.yellow{background:yellow;}
+.red{background:red; color:white;}

@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Q3 Multi-Step</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<h2>Multi-Step Form</h2>
+<form id="form">
+  <div class="step" data-step="1"><label>Name: <input name="name" required></label></div>
+  <div class="step" data-step="2" style="display:none;"><label>Email: <input name="email" required></label></div>
+  <div class="step" data-step="3" style="display:none;"><label>Password: <input name="password" type="password" required></label></div>
+  <div style="margin-top:10px;">
+    <button type="button" id="back">Back</button>
+    <button type="button" id="next">Next</button>
+    <button type="submit" id="submit" style="display:none;">Submit</button>
+  </div>
+</form>
+<div id="summary" style="margin-top:12px;"></div>
+<script src="script.js"></script>
+</body>
+</html>
