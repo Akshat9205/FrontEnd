@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.Parent{
+    border: 2px solid black;
+    width: 800px;
+    height: 600px;
+    background-color: lightslategray;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    
+}
+.child1{
+    border: 2px solid orange;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+}
+.child2{
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+}
+.child3{
+    border: 2px solid green;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+}

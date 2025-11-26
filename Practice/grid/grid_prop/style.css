@@ -1,0 +1,57 @@
+.Parent{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+}
+.child1{
+    border: 2px solid red;
+    width: 100px;
+    height: 20px;
+}
+.child2{
+    border: 2px solid red;
+    width: 100px;
+    height: 20px;
+}
+.child3{
+    border: 2px solid red;
+    width: 100px;
+    height: 20px;
+}
+.child4{
+    border: 2px solid red;
+    width: 100px;
+    height: 20px;
+}
+.child5{
+    border: 2px solid red;
+    width: 100px;
+    height: 20px;
+}
+.child6{
+    border: 2px solid red;
+    width: 100px;
+    height: 20px;
+}
+.child7{
+    border: 2px solid red;
+    width: 100px;
+    height: 20px;
+}
+.child8{
+    border: 2px solid red;
+    width: 100px;
+    height: 20px;
+}
+.child9{
+    border: 2px solid red;
+    width: 100px;
+    height: 20px;
+}

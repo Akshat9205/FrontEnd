@@ -1,0 +1,36 @@
+JavaScript - 
+
+Scripting Language
+Dynamically Typed
+Single Threaded
+Object Oriented
+Virtual DOMs
+Robust in nature
+Event Driven
+Platform Independent
+Functional and Procedural
+Server and Client Side
+
+
+Variables in JS - 
+    symbol
+    let,var,const
+    undefined
+    null
+    BigInt 
+    Boolean 
+    number 
+    String
+
+DataTypes - Primitive and Non Primitive
+
+Operators -
+    Arithmetic Operator
+    Relational/Comparison Operator
+    Logical Operator
+    Bitwise Operator
+    Ternary Operator
+    Unary Operator
+    Assignment Operator
+    Type Operator
+    Nullish Coalsecing ??
